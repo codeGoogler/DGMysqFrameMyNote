@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <div align="center" style="height: 50px; background: darkseagreen; align-items: center;justify-content: center;justify-items: center"  >{{ title }}</div>
+    <div style="align-content: center ;padding-top: 20px;padding-bottom: 20px; background: aliceblue" align="center">
+        {% for book in bookList %}
+            <div style="padding: 10px;"> 姓名:{{ book.btitle }}: 阅读数：{{book.breadnum}}-------------> 评论数：{{ book.bcomment }}--------> 出版时间：{{ book.bpub_date }}</div>
+        {% endfor %}
+    </div>
+
+    <div style="align-content: center ;padding-top: 20px;padding-bottom: 20px; background: aliceblue" align="center">
+
+        <div style="padding: 10px;"> 姓名:{{ maxBookInfo.btitle }} -------------> 内容：{{ maxBookInfo.bcomment }}, 出版时间：{{ maxBookInfo.bpub_date__max }}</div>
+        <div style="padding: 10px;"> 姓名:{{ maxGt100BookInfo.btitle }} -------------> 内容：{{ maxGt100BookInfo.bcomment }}, 出版时间：{{ maxGt100BookInfo.bpub_date }}</div>
+    </div>
+   阅读量大于评论数的的结果：
+   <div style="align-content: center ;padding-top: 20px;padding-bottom: 20px; background: aliceblue" align="center">
+       {% for book in maxGtBookInfo1 %}
+           <div style="padding: 10px;"> 姓名:{{ book.btitle }}: 阅读数：{{book.breadnum}}-------------> 评论数：{{ book.bcomment }}--------> 出版时间：{{ book.bpub_date }}</div>
+       {% endfor %}
+   </div>
+   查询阅读量大于100，并且名字中包含贝的信息：
+   <div style="align-content: center ;padding-top: 20px;padding-bottom: 20px; background: aliceblue" align="center">
+       {% for book in maxGtBookInfo2 %}
+           <div style="padding: 10px;"> 姓名:{{ book.btitle }}: 阅读数：{{book.breadnum}}-------------> 评论数：{{ book.bcomment }}--------> 出版时间：{{ book.bpub_date }}</div>
+       {% endfor %}
+   </div>
+   查询名字包含贝切isDelete=0的数据信息
+   <div style="align-content: center ;padding-top: 20px;padding-bottom: 20px; background: aliceblue" align="center">
+       {% for book in maxGtBookInfo3 %}
+           <div style="padding: 10px;"> 姓名:{{ book.btitle }}: 阅读数：{{book.breadnum}}-------------> 评论数：{{ book.bcomment }}--------> 出版时间：{{ book.bpub_date }}</div>
+       {% endfor %}
+   </div>
+
+</body>
+</html>
