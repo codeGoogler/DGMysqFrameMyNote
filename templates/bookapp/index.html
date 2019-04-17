@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-   <div align="center" style="height: 50px; background: darkseagreen; align-items: center;justify-content: center;justify-items: center"  >{{ title }}</div>
+   <div align="center" style="height: 50px; background: darkseagreen; align-items: center;justify-content: center;justify-items: center"  >{{ title }}<br>{{ time }}</div>
     <div style="align-content: center ;padding-top: 20px;padding-bottom: 20px; background: aliceblue" align="center">
         {% for book in bookList %}
             <div style="padding: 10px;"> 姓名:{{ book.btitle }}: 阅读数：{{book.breadnum}}-------------> 评论数：{{ book.bcomment }}--------> 出版时间：{{ book.bpub_date }}</div>
