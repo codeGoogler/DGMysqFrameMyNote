@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<div align="center" style="height: 50px; background: darkseagreen; align-items: center;justify-content: center;justify-items: center"  >{{ title }}<br>{{ time }}</div>
+
+        姓名：{{ uname }}<br>
+        密码：{{ upwd }}<br>
+        性别：{{ ugerder }}<br>
+        兴趣爱好：
+        {% for foo in  uhobby%}
+            {{ foo }}
+        {% endfor %}
+
+
+
+    </div>
+</body>
+</html>

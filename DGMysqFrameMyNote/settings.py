@@ -23,8 +23,9 @@ SECRET_KEY = 'roh*di6s!lt@&5c^7&3u6(dzwja^mwb&^b%+pr5zn+%x35my8q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = []
+# DEBUG = False
+# ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -32,7 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    'django.contrib.sessions',  # 使用django-admin startproject 默认启用了session
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'BookApp',
@@ -42,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
