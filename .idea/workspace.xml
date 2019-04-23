@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a8e3c16-4bc7-41ca-ba91-cd5632fdc63a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redeme/视图/状态保持.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redeme/视图/视图函数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redeme/视图/请求对象.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redeme/视图/配置url等问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookapp/Test测试_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookapp/getTest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookapp/getTest2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookapp/postTest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookapp/postTest2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookapp/userLogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookapp/userLoginMain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/erro404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookMvt/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redeme/mvt/模板/反向解析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redeme/mvt/模板/模板介绍.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redeme/mvt/模板/模板的继承.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redeme/mvt/视图/CSRF-跨站请求伪造.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redeme/mvt/视图/html转义.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookapp/callObjMetherTest1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookapp/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookapp/showDeafJx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookmvt/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookmvt/base_goods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookmvt/base_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookmvt/htmlChangeTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookmvt/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookmvt/user1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookmvt/user2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DGMysqFrameMyNote/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DGMysqFrameMyNote/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redeme/配置/url参数的配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/redeme/视图/url参数的配置.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DGMysqFrameMyNote/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DGMysqFrameMyNote/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redeme/视图/url参数的配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/redeme/mvt/视图/url参数的配置.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redeme/视图/状态保持.md" beforeDir="false" afterPath="$PROJECT_DIR$/redeme/mvt/视图/状态保持.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redeme/视图/视图函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/redeme/mvt/视图/视图函数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redeme/视图/请求对象.md" beforeDir="false" afterPath="$PROJECT_DIR$/redeme/mvt/视图/请求对象.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redeme/视图/配置url等问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/redeme/mvt/视图/配置url等问题.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,35 +43,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookApp/urls.py">
+        <entry file="file://$PROJECT_DIR$/bookMvt/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+            <state relative-caret-position="190">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#1#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redeme/视图/url参数的配置.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redeme/视图/配置url等问题.md">
+        <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/配置url等问题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="38">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -70,76 +67,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bookapp/userLoginMain.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/html转义.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="133" lean-forward="true" selection-start-line="3" selection-start-column="133" selection-end-line="3" selection-end-column="133" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BookApp/views.py">
+        <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/CSRF-跨站请求伪造.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="88" selection-start-column="88" selection-end-column="88" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookMvt/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+            <state relative-caret-position="380">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redeme/视图/状态保持.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redeme/视图/请求对象.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bookapp/getTest1.html">
+        <entry file="file://$PROJECT_DIR$/templates/bookmvt/htmlChangeTest.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bookapp/getTest2.html">
+        <entry file="file://$PROJECT_DIR$/templates/bookmvt/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="95">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/urls.py">
+        <entry file="file://$PROJECT_DIR$/templates/bookmvt/base_user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="95">
+              <caret line="5" column="112" selection-start-line="5" selection-start-column="112" selection-end-line="5" selection-end-column="112" />
               <folding>
-                <element signature="e#641#673#0" expanded="true" />
+                <element signature="e#66#123#0#HTML" expanded="true" />
+                <element signature="e#113#169#0#HTML" expanded="true" />
+                <element signature="e#116#184#0#HTML" expanded="true" />
+                <element signature="e#172#221#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bookmvt/base_goods.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -167,11 +164,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/BookApp/models.py" />
         <option value="$PROJECT_DIR$/DGMysqFrameMyNote/__init__.py" />
         <option value="$PROJECT_DIR$/redeme/orm/聚合，F对象，Q对象.md" />
         <option value="$PROJECT_DIR$/redeme/orm/多表查询关联表.md" />
-        <option value="$PROJECT_DIR$/DGMysqFrameMyNote/urls.py" />
         <option value="$PROJECT_DIR$/templates/bookapp/index.html" />
         <option value="$PROJECT_DIR$/redeme/配置/url参数的配置.md" />
         <option value="$PROJECT_DIR$/templates/erro404.html" />
@@ -184,21 +179,43 @@
         <option value="$PROJECT_DIR$/templates/bookapp/postTest2.html" />
         <option value="$PROJECT_DIR$/redeme/视图/url参数的配置.md" />
         <option value="$PROJECT_DIR$/redeme/视图/视图函数.md" />
-        <option value="$PROJECT_DIR$/DGMysqFrameMyNote/settings.py" />
         <option value="$PROJECT_DIR$/templates/bookapp/userLogin.html" />
-        <option value="$PROJECT_DIR$/BookApp/urls.py" />
         <option value="$PROJECT_DIR$/templates/bookapp/userLoginMain.html" />
         <option value="$PROJECT_DIR$/redeme/视图/状态保持.md" />
-        <option value="$PROJECT_DIR$/BookApp/views.py" />
         <option value="$PROJECT_DIR$/redeme/视图/请求对象.md" />
+        <option value="$PROJECT_DIR$/redeme/mvt/模板/模板介绍.md" />
+        <option value="$PROJECT_DIR$/templates/bookapp/main.html" />
+        <option value="$PROJECT_DIR$/templates/bookapp/showDeafJx.html" />
+        <option value="$PROJECT_DIR$/BookApp/views.py" />
+        <option value="$PROJECT_DIR$/BookApp/urls.py" />
+        <option value="$PROJECT_DIR$/templates/bookapp/callObjMetherTest1.html" />
+        <option value="$PROJECT_DIR$/redeme/mvt/模板/反向解析.md" />
+        <option value="$PROJECT_DIR$/redeme/mvt/模板/模板的继承.md" />
+        <option value="$PROJECT_DIR$/DGMysqFrameMyNote/settings.py" />
+        <option value="$PROJECT_DIR$/bookMvt/models.py" />
+        <option value="$PROJECT_DIR$/BookApp/models.py" />
+        <option value="$PROJECT_DIR$/DGMysqFrameMyNote/urls.py" />
+        <option value="$PROJECT_DIR$/templates/bookmvt/index.html" />
+        <option value="$PROJECT_DIR$/templates/bookmvt/base.html" />
+        <option value="$PROJECT_DIR$/templates/bookmvt/base_goods.html" />
+        <option value="$PROJECT_DIR$/templates/bookmvt/base_user.html" />
+        <option value="$PROJECT_DIR$/templates/bookmvt/user2.html" />
+        <option value="$PROJECT_DIR$/templates/bookmvt/user1.html" />
+        <option value="$PROJECT_DIR$/bookMvt/urls.py" />
+        <option value="$PROJECT_DIR$/redeme/mvt/视图/HTML转义.md’.html" />
+        <option value="$PROJECT_DIR$/redeme/mvt/视图/html转义.md" />
+        <option value="$PROJECT_DIR$/bookMvt/views.py" />
+        <option value="$PROJECT_DIR$/templates/bookmvt/htmlChangeTest.html" />
+        <option value="$PROJECT_DIR$/redeme/mvt/视图/CSRF-跨站请求伪造.md.html" />
+        <option value="$PROJECT_DIR$/redeme/mvt/视图/CSRF-跨站请求伪造.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="y" value="84" />
-    <option name="width" value="1932" />
-    <option name="height" value="1045" />
+    <option name="x" value="-37" />
+    <option name="y" value="35" />
+    <option name="width" value="1580" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,29 +241,12 @@
             <path>
               <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
               <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
+              <item name="bookMvt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
               <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="redeme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
               <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="redeme" type="462c0819:PsiDirectoryNode" />
-              <item name="视图" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bookapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,7 +260,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555667452587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556013352655" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -270,9 +270,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\bazyu\project\PythonPro\djangoPro\DGMysqFrameMyNote\redeme\mvt" />
       <recent name="D:\bazyu\project\PythonPro\djangoPro\DGMysqFrameMyNote\redeme\视图" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bazyu\project\PythonPro\djangoPro\DGMysqFrameMyNote\templates\bookmvt" />
       <recent name="D:\bazyu\project\PythonPro\djangoPro\DGMysqFrameMyNote\templates\bookapp" />
       <recent name="D:\bazyu\project\PythonPro\djangoPro\DGMysqFrameMyNote\templates" />
       <recent name="D:\bazyu\project\PythonPro\djangoPro\DGMysqFrameMyNote" />
@@ -329,7 +331,9 @@
       <workItem from="1555405776416" duration="3205000" />
       <workItem from="1555466279752" duration="21605000" />
       <workItem from="1555550147244" duration="18731000" />
-      <workItem from="1555636119271" duration="13915000" />
+      <workItem from="1555636119271" duration="14905000" />
+      <workItem from="1555896867628" duration="18844000" />
+      <workItem from="1555982119928" duration="12279000" />
     </task>
     <task id="LOCAL-00001" summary="提交一个完整的链接mysql的请求">
       <created>1555484286515</created>
@@ -338,11 +342,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555484286515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="django以及MVT框架的学习">
+      <created>1555667519202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555667519202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57456000" />
+    <option name="totallyTimeSpent" value="89569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,9 +365,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123667374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8534115" weight="0.26726058" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85287845" weight="0.155902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,10 +384,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49840087" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.59381664" visible="true" weight="0.17594655" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40618336" side_tool="true" visible="true" weight="0.17594655" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.81289977" weight="0.1247216" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.14712153" side_tool="true" weight="0.21380846" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.051705755" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -392,88 +403,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交一个完整的链接mysql的请求" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交一个完整的链接mysql的请求" />
+    <MESSAGE value="django以及MVT框架的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="django以及MVT框架的学习" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/orm/查询.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/backends/mysql/operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2660">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApp/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApp/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="352" column="29" selection-start-line="352" selection-start-column="25" selection-end-line="352" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/mysql/链接mysql配置.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/orm/聚合，F对象，Q对象.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/orm/多表查询关联表.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/checks/registry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -505,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/utils/datastructures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -526,37 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/视图/视图函数.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="133" selection-start-line="8" selection-start-column="133" selection-end-line="8" selection-end-column="133" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/shortcuts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bookapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bookapp/Test测试_request.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bookapp/userLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -591,53 +487,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/视图/url参数的配置.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/视图/状态保持.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bookapp/userLoginMain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/视图/配置url等问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/视图/请求对象.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -651,34 +507,325 @@
     <entry file="file://$PROJECT_DIR$/templates/bookapp/getTest2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#641#673#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookApp/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/bookapp/Test测试_request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookapp/showDeafJx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/模板/模板介绍.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/模板/反向解析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="75" selection-end-column="133" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/url参数的配置.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/视图函数.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="133" selection-start-line="8" selection-start-column="133" selection-end-line="8" selection-end-column="133" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/状态保持.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/请求对象.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="247">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/orm/多表查询关联表.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/后天关联添加.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="25" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/模板/模板的继承.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="70" selection-start-column="70" selection-end-column="70" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookMvt/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookapp/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookapp/callObjMetherTest1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+        <state relative-caret-position="513">
+          <caret line="233" column="4" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookmvt/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookmvt/user3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookmvt/user2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookmvt/user1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookmvt/base_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookmvt/base_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="112" selection-start-line="5" selection-start-column="112" selection-end-line="5" selection-end-column="112" />
+          <folding>
+            <element signature="e#66#123#0#HTML" expanded="true" />
+            <element signature="e#113#169#0#HTML" expanded="true" />
+            <element signature="e#116#184#0#HTML" expanded="true" />
+            <element signature="e#172#221#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/HTML转义.md’.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookMvt/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookmvt/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookMvt/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/配置url等问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bookmvt/htmlChangeTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/html转义.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="133" lean-forward="true" selection-start-line="3" selection-start-column="133" selection-end-line="3" selection-end-column="133" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/CSRF-跨站请求伪造.md.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/mvt/视图/CSRF-跨站请求伪造.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="88" selection-start-column="88" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

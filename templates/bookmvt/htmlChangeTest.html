@@ -1,0 +1,20 @@
+{%extends "bookmvt/base_user.html" %}
+
+{% block content %}
+
+    {{ t1 |safe }}
+
+    ================================<br>
+    {% autoescape  off %}
+        {{ t1 }}
+    {% endautoescape %}
+    ================================<br>
+    {% autoescape  on %}
+        {{ t1 }}
+    {% endautoescape %}
+    ================================<br>
+    字面值：<br>
+    {{ t2 | default:"<h1>123</h1>" }}<br>
+    手动转义：<br>
+    {{ t2 | default:"&lt;h1&gt;123&lt;/h1&gt;" }}<br>
+{% endblock content %}

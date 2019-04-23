@@ -21,6 +21,10 @@ urlpatterns = [
     url(r'^sessionUserLogin/$', views.sessionUserLogin),
     url(r'^sessionUserLoginHandler/$', views.sessionUserLoginHandler),
     url(r'^sessionUserLogout/$', views.sessionUserLogout),
-
+    #调用对象的方法
+    url(r"^callObjMetherTest1/",views.callObjMetherTest1),
+    url(r'^(\d+)$',views.showDeafJx),
+    url(r'^12345$',views.showDeafJx2,name="showJX2"),
+    url(r'^(\d+)$',views.showDeafJx2,name="showJX3")
 
 ]

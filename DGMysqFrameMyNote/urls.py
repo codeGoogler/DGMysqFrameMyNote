@@ -22,5 +22,7 @@ from BookApp import views as BookApp_View
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('book/', BookApp_View.show),
-    url(r'^bookApp/', include("BookApp.urls")),
+    url(r'^bookApp/', include(("BookApp.urls","bookApp"),namespace="bookApp")),
+    path('main/', BookApp_View.main),
+    url(r'^bookMvt/',  include(("bookMvt.urls","bookMvt"),namespace="bookMvt")),
 ]

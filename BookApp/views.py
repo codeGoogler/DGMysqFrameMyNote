@@ -181,7 +181,7 @@ def cookTest2(request):
 # 通过用户登录练习 sessions
 
 def userLoginMain(request):
-    name = request.session.get("myname","未登录")
+    name = request.session.get("myname", "未登录")
 
     content = {
         "name": name
@@ -210,5 +210,32 @@ def sessionUserLoginHandler(request):
 def sessionUserLogout(request):
     # 删除sessions
     del request.session["myname"]
-    # 注意加/ 不加斜杠还是有区别的
+    # 注意加/ 不加斜杠还是有区别的 ,不加斜杠，是和当前目录下面做匹配，加上斜杠，和根目录下面做匹配
     return redirect("/bookApp/sessionUserMain/")
+
+
+# 调用对象的方法
+def callObjMetherTest1(request):
+    heroList = HeroInfo.objects.filter(book__heroinfo__isDelete=1).order_by('id')
+    print(heroList)
+    list=[1,2,3,4,5,6,7,8,9,10]
+    print(list)
+    # heroList.delete()
+    content = {"heroList":heroList}
+    return render(request,"bookapp/callObjMetherTest1.html",content)
+
+
+def showDeafJx(request,id):
+    content = {
+        "id":id
+    }
+    return render(request,"bookapp/showDeafJx.html",content)
+
+def showDeafJx2(request,id):
+    content = {
+        "id":id
+    }
+    return render(request,"bookapp/showDeafJx.html",content)
+
+def main(request):
+    return render(request,"bookapp/main.html")

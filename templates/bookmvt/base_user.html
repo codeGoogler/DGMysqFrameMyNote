@@ -1,0 +1,12 @@
+{% extends "bookmvt/base.html" %}
+
+{% block content %}
+    <table style="width: 100%;height:100% ; border: aqua 10px solid">
+        <tr style="width: 100%;height:100% ;">
+            <td style="background: grey;height:500px; width:20%  ;text-align: center ">{% block  userContentLeft %}{% endblock userContentLeft %}</td>
+            <td style="background: rebeccapurple;height:500px; width:80% ;text-align: center ">
+                {% block  userContentRight %}{% endblock userContentRight %}
+            </td>
+        </tr>
+    </table>
+{% endblock %}

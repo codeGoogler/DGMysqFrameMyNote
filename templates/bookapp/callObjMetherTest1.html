@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% comment %}
+        这是个HTML学习文件
+        过滤器：https://blog.csdn.net/xyp84/article/details/7945094
+    {% endcomment %}
+    {#  单行注释： 过滤器：https://blog.csdn.net/xyp84/article/details/7945094  #}
+    {% for foo in heroList %}
+        {% if forloop.counter|divisibleby:"2" %}
+            <div style="color: aquamarine;margin: 10px;background: grey">第{{ forloop.counter }}个isDelelte =1的人， 要查询的名字：<span style="color: coral;size: 18px;">{{ foo.showName }}</span><br></div>
+        {% else %}
+            <div style="color: black;margin: 10px;background:grey">第{{ forloop.counter }}个isDelelte =1的人， 要查询的名字：<span style="color: rebeccapurple;size: 18px;">{{ foo.showName }}</span><br></div>
+        {% endif %}
+    {% empty %}
+            <H4 style="size: 16px;color: crimson">暂无数据</H4>
+    {% endfor %}
+    {% include "bookapp/Test测试_request.html" %}
+    <a href="/bookApp/123">显示，反向解析的学习 1 作用 ：动态生成url ,不需要写死</a><br>
+    <a href="{% url 'bookApp:showJX2' %}">显示，反向解析的学习 2</a>  <br>
+    <a href="{% url 'bookApp:showJX3' '123456789' %}">显示，反向解析的学习3</a>  <br>
+</body>
+</html>
