@@ -1,0 +1,13 @@
+{%  extends "bookmvt/base.html" %}
+{% block title %}
+   <h3>csrf的学习---》跨站请求伪造</h3>
+{% endblock title %}
+
+{% block content %}
+    <form method="post" action="/bookMvt/csrfResponseTest/" style="height: 50%;width: 50%;background: antiquewhite;align-items: center;align-content: center" >
+        用户名：<input type="text" name="uname" placeholder="请输入用户名"/> <br>
+        密  码：<input type="password" name="upwd" placeholder="请输入用密码"/><br>
+        <input type="submit" value="提交哦"/>
+    {% csrf_token %}
+    </form>
+{% endblock content %}

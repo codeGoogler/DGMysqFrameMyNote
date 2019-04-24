@@ -1,0 +1,13 @@
+{% extends "bookmvt/base.html" %}
+
+{%  block content %}
+    <div align="center">
+        <form method="post" action="/bookMvt/verifyCodeResponseTest/" >
+            {% csrf_token %}
+            <input type="text" name="code" placeholder="请输入验证码" /><br><br>
+            <img src="/bookMvt/vetifyCodeTest" /><br>
+
+            <input  type="submit" name="vertifyCode" value=" 提交 " placeholder="请输入验证码" style="border: darkorange 1px solid; width: 130px; height:50px;background: lightskyblue"><br><br>
+        </form>
+    </div>
+{% endblock content %}
