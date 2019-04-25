@@ -1,0 +1,11 @@
+{%  extends "bookmvt/base.html" %}
+{%  load static from staticfiles%}
+{% block title %}访问静态文件的两种方式{% endblock title %}
+{% block content %}
+
+    <div style="width: 100%;height: 100%; " align="center">
+        <img src="/kklt/images/zdyfb.jpg" width="100px" height="100px"/><br><br>
+
+        <img src="{% static 'images/zdyfb.jpg' %}"  width="100px" height="100px"/>
+    </div>
+{% endblock content %}

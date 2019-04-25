@@ -25,4 +25,5 @@ urlpatterns = [
     url(r'^bookApp/', include(("BookApp.urls","bookApp"),namespace="bookApp")),
     path('main/', BookApp_View.main),
     url(r'^bookMvt/',  include(("bookMvt.urls","bookMvt"),namespace="bookMvt")),
+    url(r'^fileUpApp/',  include(("fileUpApp.urls","fileUpApp"),namespace="fileUpApp")),
 ]

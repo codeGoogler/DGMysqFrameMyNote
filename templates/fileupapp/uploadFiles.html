@@ -1,0 +1,13 @@
+{% extends "bookmvt/base.html" %}>
+
+
+
+{%  block content%}
+    <div align="center">
+        <form method="post" action="/fileUpApp/uploadHandle/" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input  type="file" name="uploadFile"  />
+            <input  type="submit" name="submitbtn"  value="提交上传" />
+        </form>
+    </div>
+{% endblock content %}
