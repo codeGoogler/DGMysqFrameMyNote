@@ -122,7 +122,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'  # 只限于django，这个名字可以任意起名字，代表着该项目的根目录，换成其他名字，是为了隐藏牡蛎，防止安全 ，如下
+STATIC_URL = '/abc/'  # 只限于django，这个名字可以任意起名字，代表着该项目的根目录，换成其他名字，是为了隐藏牡蛎，防止安全 ，如下
 # STATIC_URL = '/kklt/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")  # 都二个参数要和static文件夹的名字要保持一致 ，可以不和STATIC_URL一致也可以啦
