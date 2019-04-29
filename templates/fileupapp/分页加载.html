@@ -1,0 +1,29 @@
+{%  extends 'bookmvt/base.html' %}
+
+{% block title %} 测试一个分页加载{% endblock title %}
+
+{% block content %}
+    <h3>请求分页加载的数据</h3>
+    {%  for per in   perList  %}
+
+        <div>id:{{ per.id  }}   姓名：{{ per.userName }}   ,密码：******* </div><br>
+
+    {% endfor %}
+
+
+    {% if not perList.em %}
+
+    {% endif %}
+
+    {% for index in  perList.paginator.page_range%}
+
+        <span style="font-size: 16px;color: aquamarine;"> <a href="/fileUpApp/queryByPageMainTest/{{index}}"> previous </a></span>
+
+        {% if index == perList.number %}
+           <span style="font-size: 16px;color: red;"> {{ index }} </span>
+        {% else %}
+            <span style="font-size: 16px;color: aquamarine;"> <a href="/fileUpApp/queryByPageMainTest/{{index}}">{{ index }}</a></span>
+        {% endif %}
+
+    {% endfor %}
+{% endblock content %}

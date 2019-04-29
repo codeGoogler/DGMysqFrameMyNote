@@ -1,0 +1,32 @@
+{%  extends 'bookmvt/base.html' %}
+
+{% block title %} 测试一个分页加载{% endblock title %}
+
+{% block content %}
+    <div class="container">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>id</th>
+                <th>书名</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for book in book_list %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ book.id }}</td>
+                    <td>{{ book.title }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                {{ html_page|safe }}
+            </ul>
+        </nav>
+    </div>
+{% endblock content %}

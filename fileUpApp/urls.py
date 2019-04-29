@@ -10,5 +10,6 @@ urlpatterns = [
     url(r"^MyExceptionTest/$", views.MyExceptionTest,name='MyExceptionTest'),
     url(r"^uploadHandle/$", views.uploadHandle,name='uploadHandle'),
     url(r"^uploadFiles/$", views.uploadFiles,name='uploadFiles'),
+    url(r"^queryByPageMainTest/(\d*)$", views.queryByPageMainTest,name='queryByPageMainTest'),
 
 ]
