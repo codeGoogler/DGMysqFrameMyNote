@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'BookApp',
     'bookMvt',
     'fileUpApp',
+    'researchCiry',
 ]
 
 MIDDLEWARE = [

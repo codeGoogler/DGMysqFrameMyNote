@@ -7,7 +7,7 @@ class UserInfo(models.Model):
     userName = models.CharField(max_length=10)
     userPassword= models.CharField(max_length=40)
     idDelete = models.BooleanField()
-
+    # idCommit = models.BigIntegerField(default=0)
     # userManager = models.Manager()
 
 class Page:
