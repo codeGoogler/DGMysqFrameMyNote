@@ -11,8 +11,8 @@ from .models import UserInfo, Page
 # Create your views here.
 
 def index(request):
-    return HttpResponse("卡卡罗特")
-    # return render(request,"fileupapp/acessStaticFile.html")
+    # return HttpResponse("卡卡罗特")
+    return render(request,"index.html")
 
 
 #  访问静态文件

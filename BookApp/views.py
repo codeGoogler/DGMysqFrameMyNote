@@ -4,6 +4,9 @@ from django.http import *
 # Create your views here.
 from .models import *
 
+def index(request):
+    # return HttpResponse("卡卡罗特")
+    return render(request,"index.html")
 
 def show(request):
     bookInfo = BookInfo.bookManager.all()
@@ -31,7 +34,7 @@ def show(request):
     return render(request, 'bookapp/index.html', content)
 
 
-def index(request, p1, p2, p3):
+def indexPage(request, p1, p2, p3):
     bookInfo = BookInfo.bookManager.all()
     maxBookInfo = BookInfo.bookManager.aggregate(Max("bpub_date"))
     maxGt100BookInfo = BookInfo.bookManager.filter(breadnum__gt=100)  # 查询月大量大于100的
