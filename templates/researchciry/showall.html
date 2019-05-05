@@ -4,24 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <title> 搜索城市的学习</title>
-    <script src="/static/researchCiry/jquery-1.12.4.min.js"></script>
+    {% comment %}<script src="/static/researchCiry/jquery-1.12.4.min.js"></script>{% endcomment %}
+    <script type="text/javascript" src="/static/researchCiry/jquery-1.12.4.min.js"></script>
     <script>
         $(function () {
             console.log("啦啦啦啦啦啦啦啦绿绿绿绿绿绿绿绿绿绿绿绿绿");
             var provin = $("#province");
-            $.get('/researchCiry/area/0',function (dic) {
+            {% comment %}var provin = document.getElementById("province"){% endcomment %}
+            {#var showSpan = $("#showSpan")[0];#}
+            var showSpan = $("#showSpan")[0];
+            {#var showSpan = document.getElementById("showSpan")#}
+            $.get('/researchCiry/area/1',function (dic) {
                 console.log(dic)
                 $.each(dic.data,function (index,item) {
-                    provin.append('<option value="'+item[0]+'">+item[1]+</option>')
+                    console.log("yyyyy",item[0],item[1])
+                  {% comment %}  provin.append('<option value="'+item[0]+'">+item[1]+</option>'){% endcomment %}
+                    var  ss = item[1]
+                    showSpan.innerHTML = ss
+                    provin.append('<option value="'+item[0]+'">'+ss+'</option>')
                 })
             })
+            $('#province').change(function () {
+                $.get('/researchCiry/city/'+$(this).val()+'/',function (list) {
+                    city = $('#city')
+                    city.empty()
+                    city.append('<option value="'+0+'">'+"请选择城市"+'</option>')
+                    $.each(list.cityData,function (index,item) {
+                        city.append('<option value="'+item.id+'">'+item.title+'</option>')
+                    })
+                })
+            })
+            $('#city').change(function () {
+                $.get('/researchCiry/distance/'+ $('#city').val()+'/',function (list) {
+                    dis = $('#dis')
+
+                    dis.empty()
+                    dis.append('<option value="'+0+'">'+"请选择区"+'</option>')
+                    $.each(list.distanceData,function (index,item) {
+                        dis.append('<option value="'+item.id+'">'+item.title+'</option>')
+                    })
+                })
+            })
+           {% comment %} $('#city').change(function () {
+                $.get('/researchCiry/distance/'+$(this).val()+'/',function (list) {
+                    dis = $('#dis')
+
+                    dis.empty()
+                    dis.append('<option value="'+0+'">'+"请选择区"+'</option>')
+                    $.each(list.distanceData,function (index,item) {
+                        dis.append('<option value="'+item.id+'">'+item.title+'</option>')
+                    })
+                })
+            }){% endcomment %}
         })
     </script>
 </head>
 <body>
 <h1 align="center" style="background: aqua; color: red; width: 100%;height: 140px;line-height:140px;text-align: center">login</h1>
 
-{{ note }}
+{{ note }}<br>
 
 <select id="province"><option value="">请选择称省份城市</option></select>
 <select id="city"><option value="">请选择请选择称城市</option></select>
@@ -31,7 +72,7 @@
 {% endfor %}
 
 <h2>卡卡罗特</h2>
-
+<span id="showSpan">12341234</span>
 <h3 align="center" style="background: lightskyblue; color: red; width:100%;height: 40px;;line-height:40px;">end</h3>
 </body>
 </html>

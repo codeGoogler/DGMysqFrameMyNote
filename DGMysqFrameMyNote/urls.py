@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index', BookApp_View.index),
     path('book/', BookApp_View.show),
+    url(r'^tinymce/', include('tinymce.urls')),
     url(r'^bookApp/', include(("BookApp.urls","bookApp"),namespace="bookApp")),
     path('main/', BookApp_View.main),
     url(r'^bookMvt/',  include(("bookMvt.urls","bookMvt"),namespace="bookMvt")),
