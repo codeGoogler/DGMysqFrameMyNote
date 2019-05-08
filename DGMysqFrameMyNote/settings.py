@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'bookMvt',
     'fileUpApp',
     'researchCiry',
-    # 'tinymce',
+    'tinymce',
 ]
 
 MIDDLEWARE = [
@@ -136,5 +136,4 @@ TINYMCE_DEFAULT_CONFIG={
     'theme':'advanced',
     'width':600,
     'height':400
-
 }

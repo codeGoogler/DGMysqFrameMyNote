@@ -8,6 +8,7 @@ urlpatterns = [
     url(r'^area/(\d+)/$',views.area),
     url(r'^city/(\d+)/$',views.city),
     url(r'^distance/(\d+)/$',views.distance),
+    url(r'^cumtomerEdit/$',views.cumtomerEdit),
 
 
 ]

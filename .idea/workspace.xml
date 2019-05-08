@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a8e3c16-4bc7-41ca-ba91-cd5632fdc63a" name="Default Changelist" comment="django以及MVT框架的学习">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redeme/ajax/ajax的使用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redeme/其他知识点/富文本编辑器.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41da32fe-14d4-4d88-94e8-cab23dbdd4e0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41da32fe-14d4-4d88-94e8-cab23dbdd4e0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redeme/其他知识点/Python相关问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/researchciry/cumtomerEdit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DGMysqFrameMyNote/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DGMysqFrameMyNote/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DGMysqFrameMyNote/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DGMysqFrameMyNote/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redeme/mysql/自连接.md" beforeDir="false" afterPath="$PROJECT_DIR$/redeme/mysql/自连接.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redeme/其他知识点/富文本编辑器.md" beforeDir="false" afterPath="$PROJECT_DIR$/redeme/其他知识点/富文本编辑器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/researchCiry/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/researchCiry/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/researchCiry/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/researchCiry/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/researchCiry/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/researchCiry/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/researchciry/showall.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/researchciry/showall.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,29 +71,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="787">
+              <caret line="137" column="16" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/urls.py">
+        <entry file="file://$PROJECT_DIR$/researchCiry/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="578">
+              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/researchciry/cumtomerEdit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/__init__.py">
+        <entry file="file://$PROJECT_DIR$/templates/researchciry/showall.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="133">
+              <caret line="7" column="92" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -106,8 +114,8 @@
         <entry file="file://$PROJECT_DIR$/redeme/其他知识点/富文本编辑器.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <first_editor relative-caret-position="266">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,49 +123,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fileUpApp/urls.py">
+        <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="323">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/management/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1310">
-              <caret line="404" selection-start-line="404" selection-end-line="404" />
+        <entry file="file://$PROJECT_DIR$/redeme/其他知识点/Python相关问题.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/management/commands/runserver.py">
+        <entry file="file://$PROJECT_DIR$/researchCiry/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookMvt/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#17#49#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookApp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -165,11 +158,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/researchCiry/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            <state relative-caret-position="190">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookApp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -179,8 +181,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -209,14 +211,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/bookmvt/user2.html" />
-        <option value="$PROJECT_DIR$/templates/bookmvt/user1.html" />
         <option value="$PROJECT_DIR$/redeme/mvt/视图/HTML转义.md’.html" />
         <option value="$PROJECT_DIR$/redeme/mvt/视图/html转义.md" />
         <option value="$PROJECT_DIR$/templates/bookmvt/htmlChangeTest.html" />
         <option value="$PROJECT_DIR$/redeme/mvt/视图/CSRF-跨站请求伪造.md.html" />
         <option value="$PROJECT_DIR$/redeme/mvt/视图/CSRF-跨站请求伪造.md" />
-        <option value="$PROJECT_DIR$/BookApp/models.py" />
         <option value="$PROJECT_DIR$/bookMvt/models.py" />
         <option value="$PROJECT_DIR$/templates/bookmvt/csrfResponseTest.html" />
         <option value="$PROJECT_DIR$/templates/bookmvt/csrfRequestTest.html" />
@@ -244,7 +243,6 @@
         <option value="$PROJECT_DIR$/templates/fileupapp/ajax_jq的使用.md" />
         <option value="$PROJECT_DIR$/fileUpApp/admin.py" />
         <option value="$PROJECT_DIR$/fileUpApp/models.py" />
-        <option value="$PROJECT_DIR$/researchCiry/models.py" />
         <option value="$PROJECT_DIR$/redeme/districts.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/03c04cd8-e777-4cfd-8078-699e8a27294f/console.sql" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -252,14 +250,18 @@
         <option value="$PROJECT_DIR$/redeme/mysql/自连接.md" />
         <option value="$PROJECT_DIR$/redeme/ajax/ajax的使用.py" />
         <option value="$PROJECT_DIR$/redeme/ajax/ajax的使用.md" />
-        <option value="$PROJECT_DIR$/researchCiry/urls.py" />
-        <option value="$PROJECT_DIR$/researchCiry/views.py" />
         <option value="$PROJECT_DIR$/templates/researchciry/showall.html" />
-        <option value="$PROJECT_DIR$/redeme/其他知识点/富文本编辑器.md" />
         <option value="$PROJECT_DIR$/fileUpApp/urls.py" />
-        <option value="$PROJECT_DIR$/DGMysqFrameMyNote/urls.py" />
         <option value="$PROJECT_DIR$/BookApp/urls.py" />
+        <option value="$PROJECT_DIR$/BookApp/models.py" />
+        <option value="$PROJECT_DIR$/redeme/其他知识点/Python相关问题.md" />
+        <option value="$PROJECT_DIR$/DGMysqFrameMyNote/urls.py" />
         <option value="$PROJECT_DIR$/DGMysqFrameMyNote/settings.py" />
+        <option value="$PROJECT_DIR$/researchCiry/models.py" />
+        <option value="$PROJECT_DIR$/researchCiry/views.py" />
+        <option value="$PROJECT_DIR$/redeme/其他知识点/富文本编辑器.md" />
+        <option value="$PROJECT_DIR$/researchCiry/urls.py" />
+        <option value="$PROJECT_DIR$/templates/researchciry/cumtomerEdit.html" />
       </list>
     </option>
   </component>
@@ -283,8 +285,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,23 +302,7 @@
             <path>
               <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
               <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="bookMvt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
               <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="bookMvt" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="fileUpApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
@@ -333,11 +319,6 @@
               <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
               <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
               <item name="researchCiry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DGMysqFrameMyNote" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DGMysqFrameMyNote" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +343,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557050798641" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557309054085" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -445,7 +426,10 @@
       <workItem from="1556438720898" duration="6163000" />
       <workItem from="1556498124415" duration="15828000" />
       <workItem from="1556587523680" duration="7443000" />
-      <workItem from="1557017256383" duration="25047000" />
+      <workItem from="1557017256383" duration="25388000" />
+      <workItem from="1557130688391" duration="2151000" />
+      <workItem from="1557190259417" duration="3843000" />
+      <workItem from="1557282583423" duration="14070000" />
     </task>
     <task id="LOCAL-00001" summary="提交一个完整的链接mysql的请求">
       <created>1555484286515</created>
@@ -465,7 +449,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199746000" />
+    <option name="totallyTimeSpent" value="220151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,19 +462,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.033407573" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85287845" visible="true" weight="0.16926503" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85287845" weight="0.39309576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43207127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,8 +480,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49840087" weight="0.23719376" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.81289977" weight="0.15367483" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.81289977" visible="true" weight="0.17371938" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.14712153" side_tool="true" weight="0.21380846" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.033407573" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.23294243" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -509,7 +492,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="SciView" order="8" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.29690832" />
+      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.3139659" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,67 +508,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/redeme/fileupapp/站点管理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/fileupapp/中间件.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="40" selection-start-column="40" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/fileupapp/上传图片.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/fileupapp/静态文件相关处理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fileUpApp/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4028">
-          <caret line="212" column="54" lean-forward="true" selection-start-line="212" selection-start-column="54" selection-end-line="212" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,16 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/readMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="950">
-            <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fileUpApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
@@ -663,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redeme/mysql/链接mysql配置.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -688,40 +597,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/后天关联添加.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="608">
-            <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41da32fe-14d4-4d88-94e8-cab23dbdd4e0/schema/djangotest/table/userinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://41da32fe-14d4-4d88-94e8-cab23dbdd4e0/schema/djangotest/table/userinfo" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/41da32fe-14d4-4d88-94e8-cab23dbdd4e0/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://41da32fe-14d4-4d88-94e8-cab23dbdd4e0/schema/djangotest/table/researchciry_areainfo2_copy">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41da32fe-14d4-4d88-94e8-cab23dbdd4e0/schema/djangotest/table/areainfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://41da32fe-14d4-4d88-94e8-cab23dbdd4e0/schema/djangotest/table/researchciry_areainfo2_copy" />
+    <entry file="das://41da32fe-14d4-4d88-94e8-cab23dbdd4e0/schema/djangotest/table/areainfo" />
     <entry file="das://41da32fe-14d4-4d88-94e8-cab23dbdd4e0/schema/djangotest/table/researchciry_areainfo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -800,9 +681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/ajax/ajax的使用.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/ajax/ajax的使用.py" />
     <entry file="file://$PROJECT_DIR$/redeme/ajax/ajax的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -810,30 +689,6 @@
             <caret column="120" selection-start-column="120" selection-end-column="120" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/researchCiry/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/researchciry/showall.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/researchCiry/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="998">
-          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,51 +702,7 @@
     <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookMvt/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#17#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/researchCiry/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeme/其他知识点/富文本编辑器.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/management/commands/runserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/management/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1310">
-          <caret line="404" selection-start-line="404" selection-end-line="404" />
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -902,24 +713,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookApp/urls.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/management/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8265">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/management/commands/runserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookMvt/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#17#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="212" column="31" selection-start-line="212" selection-start-column="31" selection-end-line="212" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/media/zdyfb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/researchCiry/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="525">
+            <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/后天关联添加.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="368">
+            <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/tinymce/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/其他知识点/Python相关问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme/其他知识点/富文本编辑器.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/researchciry/showall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="92" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DGMysqFrameMyNote/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="787">
+          <caret line="137" column="16" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/researchCiry/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/researchCiry/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/researchCiry/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/researchciry/cumtomerEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>

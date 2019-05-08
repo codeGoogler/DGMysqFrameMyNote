@@ -33,8 +33,9 @@ class HeroInfo(models.Model):
     hgender = models.BooleanField(default=False)
     hcontent = models.CharField(max_length=1000)
     isDelete = models.BooleanField(default=False)
-    book = models.ForeignKey(BookInfo, "on_delete=models.CASCADE()")
-
+    # book = models.ForeignKey(BookInfo, "on_delete=models.CASCADE()")
+    # book = models.ForeignKey('BookInfo', on_delete=models.CASCADE())
+    book = models.ForeignKey('BookInfo', on_delete=models.CASCADE)
     class Meta:
         db_table = 'djheroinfo'
 

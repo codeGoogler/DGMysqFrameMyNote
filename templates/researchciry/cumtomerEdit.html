@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="/static/researchCiry/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        tinyMCE.init(
+            {
+                'theme':'advanced',
+                'width':600,
+                'height':400,
+                'model':'textareas'
+            }
+        );
+    </script>
+</head>
+<body>
+    <form method="post" action="/content/">
+        <input type="text" name="hanme"/><br>
+        <textarea name="hcontent">哈哈，这个是哈</textarea><br>
+        <input type="submit" value="提交"/>
+    </form>
+</body>
+</html>

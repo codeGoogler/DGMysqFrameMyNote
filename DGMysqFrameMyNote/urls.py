@@ -29,4 +29,5 @@ urlpatterns = [
     url(r'^bookMvt/',  include(("bookMvt.urls","bookMvt"),namespace="bookMvt")),
     url(r'^fileUpApp/',  include(("fileUpApp.urls","fileUpApp"),namespace="fileUpApp")),
     url(r'^researchCiry/',  include(("researchCiry.urls","researchCiry"),namespace="researchCiry")),
+    url(r'^tinymce/', include('tinymce.urls')),
 ]

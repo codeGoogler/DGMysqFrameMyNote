@@ -71,3 +71,8 @@ def distance(request ,distanceId):
         'distanceData':list
     }
     return JsonResponse(distanceData)
+
+
+# 自定义 编辑器
+def cumtomerEdit(request):
+    return render(request,"researchciry/cumtomerEdit.html")
